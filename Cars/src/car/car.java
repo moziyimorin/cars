@@ -21,12 +21,20 @@ public abstract class car {
         this.fuelPrice = fuelPrice;
     }
     
-    public void honking(){
-        System.out.println("beep");
+    public void fuelUp(){
+        System.out.println("Drive Safe!");
     }
     
-    public void driving(){
-        System.out.println("zoom");
+    public void goOnSale(){
+        System.out.println("What a Deal!");
+    }
+    
+    public void honk(){
+        System.out.println("beep!");
+    }
+    
+    public void drive(){
+        System.out.println("zoom!");
     }
     
     
